@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/humorDetection.iml" filepath="$PROJECT_DIR$/.idea/humorDetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/genderDetectionFromAudio.iml" filepath="$PROJECT_DIR$/.idea/genderDetectionFromAudio.iml" />
     </modules>
   </component>
 </project>
