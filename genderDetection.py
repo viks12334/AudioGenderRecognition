@@ -13,7 +13,7 @@ if uploader is not None:
     wf,sr = librosa.load('audio.mp3')
     mfcc_wf = librosa.feature.mfcc(y=wf, sr=sr)
     b = tf.keras.utils.pad_sequences(mfcc_wf, padding='post', maxlen=200)
-    pred = model.predict(np.array([b]))[0]
+    pred = model.predict(np.array([b]))[0] 
     if pred <= 0.65:
         st.write(f"## Женский с точностью {float((1-pred[0])*100).__round__(2)}%")
     else:
